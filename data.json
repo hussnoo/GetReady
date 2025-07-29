@@ -1,33 +1,74 @@
 {
     "Personal": [
-        { "title": "Define personal development goals", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
-        { "title": "Create a weekly workout plan", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
-        { "title": "Read a book for 30 minutes", "priority": "Low", "estimated_time": "30m", "tone": "Casual" }
+        { "title": "Define personal development goals for the next quarter", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Create a detailed weekly workout and meal plan", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Read one non-fiction book this month", "priority": "Low", "estimated_time": "5h", "tone": "Casual" },
+        { "title": "Practice meditation for 10 minutes daily", "priority": "Medium", "estimated_time": "10m", "tone": "Casual" },
+        { "title": "Review and update personal budget", "priority": "High", "estimated_time": "1.5h", "tone": "Professional" },
+        { "title": "Learn a new skill (e.g., coding, a new language)", "priority": "Medium", "estimated_time": "10h", "tone": "Professional" },
+        { "title": "Organize digital files and declutter desktop", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Set up a morning routine", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Write in a journal daily", "priority": "Low", "estimated_time": "15m", "tone": "Casual" },
+        { "title": "Network with 5 new people in your field", "priority": "High", "estimated_time": "2h", "tone": "Professional" }
     ],
     "Business": [
-        { "title": "Finalize Q3 budget report", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
-        { "title": "Prepare presentation for stakeholder meeting", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
-        { "title": "Brainstorm new marketing campaigns", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" },
-        { "title": "Team lunch to boost morale", "priority": "Low", "estimated_time": "1h", "tone": "Casual" }
+        { "title": "Finalize and submit the quarterly budget report", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Prepare and rehearse presentation for the upcoming stakeholder meeting", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Brainstorm and outline new marketing campaigns for the next product launch", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Organize a team-building activity or lunch", "priority": "Low", "estimated_time": "1.5h", "tone": "Casual" },
+        { "title": "Review and update the business plan", "priority": "High", "estimated_time": "8h", "tone": "Professional" },
+        { "title": "Conduct a competitive analysis", "priority": "Medium", "estimated_time": "5h", "tone": "Professional" },
+        { "title": "Develop a content calendar for social media", "priority": "Medium", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Research and identify potential new clients or partners", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Update company website with recent achievements and news", "priority": "Low", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Hold one-on-one meetings with team members", "priority": "Medium", "estimated_time": "3h", "tone": "Professional" }
     ],
     "Event": [
-        { "title": "Send out invitations", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
-        { "title": "Book a venue", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
-        { "title": "Plan the menu", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" }
+        { "title": "Finalize event date, time, and send out official invitations", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Book and confirm the venue and catering", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Plan the detailed event schedule and agenda", "priority": "Medium", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Arrange for speakers or entertainment", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Create and distribute promotional materials (e.g., flyers, social media posts)", "priority": "Medium", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Set up an event registration page or RSVP system", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Coordinate with vendors (e.g., photographers, AV equipment)", "priority": "Medium", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Plan and prepare decorations and signage", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Prepare a post-event follow-up email or survey", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Create a contingency plan for potential issues (e.g., weather, technical problems)", "priority": "High", "estimated_time": "2h", "tone": "Professional" }
     ],
     "Digital": [
-        { "title": "Update your LinkedIn profile", "priority": "High", "estimated_time": "30m", "tone": "Professional" },
-        { "title": "Clean up your email inbox", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Learn a new software skill", "priority": "Low", "estimated_time": "2h", "tone": "Casual" }
+        { "title": "Update your LinkedIn profile and resume", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Clean up and organize your email inbox (aim for inbox zero)", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Learn a new software or digital tool relevant to your career", "priority": "Medium", "estimated_time": "10h", "tone": "Professional" },
+        { "title": "Review and strengthen passwords for key accounts", "priority": "High", "estimated_time": "30m", "tone": "Professional" },
+        { "title": "Back up important files to a cloud service or external drive", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Unsubscribe from unnecessary email newsletters", "priority": "Low", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Create a professional online portfolio or personal website", "priority": "Medium", "estimated_time": "8h", "tone": "Professional" },
+        { "title": "Audit and update your social media privacy settings", "priority": "High", "estimated_time": "45m", "tone": "Professional" },
+        { "title": "Schedule social media content for the upcoming week", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" },
+        { "title": "Complete an online course or certification", "priority": "Medium", "estimated_time": "15h", "tone": "Professional" }
     ],
     "Travel": [
-        { "title": "Book flights and accommodation", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
-        { "title": "Pack your bags", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Plan your itinerary", "priority": "Low", "estimated_time": "1.5h", "tone": "Casual" }
+        { "title": "Book flights, accommodation, and rental car", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Create a detailed packing list and pack your bags", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Plan a day-by-day itinerary with key attractions and activities", "priority": "Medium", "estimated_time": "4h", "tone": "Casual" },
+        { "title": "Notify your bank and credit card companies of your travel plans", "priority": "High", "estimated_time": "15m", "tone": "Professional" },
+        { "title": "Purchase travel insurance", "priority": "High", "estimated_time": "30m", "tone": "Professional" },
+        { "title": "Research local customs, phrases, and transportation options", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Make copies of important documents (passport, visa, etc.)", "priority": "High", "estimated_time": "20m", "tone": "Professional" },
+        { "title": "Download offline maps and travel apps", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Arrange for pet or house sitters if needed", "priority": "High", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Confirm all reservations a week before departure", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" }
     ],
     "Lifestyle": [
-        { "title": "Declutter your home", "priority": "High", "estimated_time": "3h", "tone": "Casual" },
-        { "title": "Try a new healthy recipe", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Practice mindfulness or meditation", "priority": "Low", "estimated_time": "15m", "tone": "Casual" }
+        { "title": "Declutter and organize one room in your home", "priority": "High", "estimated_time": "4h", "tone": "Casual" },
+        { "title": "Try a new healthy recipe for dinner each day this week", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Practice mindfulness or meditation for 15 minutes every morning", "priority": "Low", "estimated_time": "15m", "tone": "Casual" },
+        { "title": "Go for a 30-minute walk or run outdoors", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Plan and prep your meals for the week", "priority": "High", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Disconnect from all screens for one hour before bed", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Start a new hobby or creative project", "priority": "Low", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Schedule appointments for health check-ups (doctor, dentist)", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Create a relaxing evening routine", "priority": "Medium", "estimated_time": "45m", "tone": "Casual" },
+        { "title": "Volunteer for a cause you care about", "priority": "Low", "estimated_time": "4h", "tone": "Casual" }
     ]
 }

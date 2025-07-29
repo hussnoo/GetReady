@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
-        
+
         // In a real app, you'd send this to a server.
         // For now, we'll just show an alert.
         alert(`Thank you, ${name}! Your message has been sent. We will contact you at ${email}.`);

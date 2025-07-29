@@ -75,17 +75,82 @@
 
         <section id="tools-page" class="page">
             <h2>Tools</h2>
-            <p>Coming soon!</p>
+            <div class="tool-list">
+                <div class="tool-card">
+                    <h3>Resume Builder</h3>
+                    <p>Create a professional resume in minutes.</p>
+                    <a href="#" class="btn-tool">Coming Soon</a>
+                </div>
+                <div class="tool-card">
+                    <h3>Pitch Deck Samples</h3>
+                    <p>Get inspired by successful pitch decks.</p>
+                    <a href="#" class="btn-tool">Coming Soon</a>
+                </div>
+                <div class="tool-card">
+                    <h3>Budget Planner</h3>
+                    <p>Track your income and expenses.</p>
+                    <a href="#" class="btn-tool">Coming Soon</a>
+                </div>
+            </div>
         </section>
 
         <section id="consultation-page" class="page">
-            <h2>Consultation</h2>
-            <p>Coming soon!</p>
+            <h2>Book a Consultation</h2>
+            <form id="consultation-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
         </section>
 
         <section id="account-page" class="page">
-            <h2>Account</h2>
-            <p>Coming soon!</p>
+            <div class="account-container">
+                <div id="login-form-container">
+                    <h2>Login</h2>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="login-email">Email</label>
+                            <input type="email" id="login-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" required>
+                        </div>
+                        <button type="submit" class="btn-submit">Login</button>
+                    </form>
+                    <p>Don't have an account? <a href="#" id="show-register">Register here</a></p>
+                </div>
+
+                <div id="register-form-container" style="display: none;">
+                    <h2>Register</h2>
+                    <form id="register-form">
+                        <div class="form-group">
+                            <label for="register-name">Name</label>
+                            <input type="text" id="register-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-email">Email</label>
+                            <input type="email" id="register-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-password">Password</label>
+                            <input type="password" id="register-password" required>
+                        </div>
+                        <button type="submit" class="btn-submit">Register</button>
+                    </form>
+                    <p>Already have an account? <a href="#" id="show-login">Login here</a></p>
+                </div>
+            </div>
         </section>
     </main>
 

@@ -111,4 +111,34 @@ document.addEventListener('DOMContentLoaded', () => {
         const percentage = total > 0 ? (completed / total) * 100 : 0;
         progressBar.style.width = `${percentage}%`;
     }
+
+    const consultationForm = document.getElementById('consultation-form');
+    consultationForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // In a real app, you'd send this to a server.
+        // For now, we'll just show an alert.
+        alert(`Thank you, ${name}! Your message has been sent. We will contact you at ${email}.`);
+        consultationForm.reset();
+    });
+
+    const showRegisterLink = document.getElementById('show-register');
+    const showLoginLink = document.getElementById('show-login');
+    const loginFormContainer = document.getElementById('login-form-container');
+    const registerFormContainer = document.getElementById('register-form-container');
+
+    showRegisterLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        loginFormContainer.style.display = 'none';
+        registerFormContainer.style.display = 'block';
+    });
+
+    showLoginLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        registerFormContainer.style.display = 'none';
+        loginFormContainer.style.display = 'block';
+    });
 });

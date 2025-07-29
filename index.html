@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetReady - Preparation Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>GetReady</h1>
+    </header>
+
+    <main id="app-container">
+        <section id="home-page" class="page active">
+            <h2>Preparation Categories</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="Personal">
+                    <h3>Personal</h3>
+                </div>
+                <div class="category-card" data-category="Business">
+                    <h3>Business</h3>
+                </div>
+                <div class="category-card" data-category="Event">
+                    <h3>Event</h3>
+                </div>
+                <div class="category-card" data-category="Digital">
+                    <h3>Digital</h3>
+                </div>
+                <div class="category-card" data-category="Travel">
+                    <h3>Travel</h3>
+                </div>
+                <div class="category-card" data-category="Lifestyle">
+                    <h3>Lifestyle</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="checklist-page" class="page">
+            <div class="checklist-header">
+                <button id="back-to-home">← Back</button>
+                <h2 id="checklist-title"></h2>
+            </div>
+            <div class="progress-tracker">
+                <p><span id="completed-tasks">0</span> / <span id="total-tasks">0</span> tasks completed</p>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="filters">
+                <select id="priority-filter">
+                    <option value="all">All Priorities</option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <select id="time-filter">
+                    <option value="all">All Durations</option>
+                    <option value="Quick Wins">Quick Wins</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Long-Term">Long-Term</option>
+                </select>
+                <select id="tone-filter">
+                    <option value="all">All Tones</option>
+                    <option value="Casual">Casual</option>
+                    <option value="Professional">Professional</option>
+                </select>
+            </div>
+            <div id="checklist-container"></div>
+            <button id="mark-as-done">Mark This Preparation as Done</button>
+        </section>
+
+        <section id="tools-page" class="page">
+            <h2>Tools</h2>
+            <p>Coming soon!</p>
+        </section>
+
+        <section id="consultation-page" class="page">
+            <h2>Consultation</h2>
+            <p>Coming soon!</p>
+        </section>
+
+        <section id="account-page" class="page">
+            <h2>Account</h2>
+            <p>Coming soon!</p>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <button data-page="home-page" class="nav-btn active">Home</button>
+        <button data-page="tools-page" class="nav-btn">Tools</button>
+        <button data-page="consultation-page" class="nav-btn">Consultation</button>
+        <button data-page="account-page" class="nav-btn">Account</button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

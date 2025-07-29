@@ -1,0 +1,33 @@
+{
+    "Personal": [
+        { "title": "Define personal development goals", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Create a weekly workout plan", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Read a book for 30 minutes", "priority": "Low", "estimated_time": "30m", "tone": "Casual" }
+    ],
+    "Business": [
+        { "title": "Finalize Q3 budget report", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Prepare presentation for stakeholder meeting", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Brainstorm new marketing campaigns", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" },
+        { "title": "Team lunch to boost morale", "priority": "Low", "estimated_time": "1h", "tone": "Casual" }
+    ],
+    "Event": [
+        { "title": "Send out invitations", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Book a venue", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Plan the menu", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" }
+    ],
+    "Digital": [
+        { "title": "Update your LinkedIn profile", "priority": "High", "estimated_time": "30m", "tone": "Professional" },
+        { "title": "Clean up your email inbox", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Learn a new software skill", "priority": "Low", "estimated_time": "2h", "tone": "Casual" }
+    ],
+    "Travel": [
+        { "title": "Book flights and accommodation", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Pack your bags", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Plan your itinerary", "priority": "Low", "estimated_time": "1.5h", "tone": "Casual" }
+    ],
+    "Lifestyle": [
+        { "title": "Declutter your home", "priority": "High", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Try a new healthy recipe", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Practice mindfulness or meditation", "priority": "Low", "estimated_time": "15m", "tone": "Casual" }
+    ]
+}

@@ -9,7 +9,12 @@
         { "title": "Organize digital files and declutter desktop", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
         { "title": "Set up a morning routine", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
         { "title": "Write in a journal daily", "priority": "Low", "estimated_time": "15m", "tone": "Casual" },
-        { "title": "Network with 5 new people in your field", "priority": "High", "estimated_time": "2h", "tone": "Professional" }
+        { "title": "Network with 5 new people in your field", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Identify and eliminate one bad habit", "priority": "High", "estimated_time": "ongoing", "tone": "Casual" },
+        { "title": "Take a course to improve public speaking skills", "priority": "Medium", "estimated_time": "8h", "tone": "Professional" },
+        { "title": "Define your personal brand and values", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Create a 5-year plan", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Volunteer for a cause you believe in", "priority": "Low", "estimated_time": "4h", "tone": "Casual" }
     ],
     "Business": [
         { "title": "Finalize and submit the quarterly budget report", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
@@ -21,7 +26,12 @@
         { "title": "Develop a content calendar for social media", "priority": "Medium", "estimated_time": "3h", "tone": "Casual" },
         { "title": "Research and identify potential new clients or partners", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
         { "title": "Update company website with recent achievements and news", "priority": "Low", "estimated_time": "2h", "tone": "Professional" },
-        { "title": "Hold one-on-one meetings with team members", "priority": "Medium", "estimated_time": "3h", "tone": "Professional" }
+        { "title": "Hold one-on-one meetings with team members", "priority": "Medium", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Develop a risk management strategy", "priority": "High", "estimated_time": "6h", "tone": "Professional" },
+        { "title": "Implement a new project management tool", "priority": "Medium", "estimated_time": "10h", "tone": "Professional" },
+        { "title": "Analyze customer feedback and create an action plan", "priority": "High", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Create a hiring plan for the next year", "priority": "High", "estimated_time": "5h", "tone": "Professional" },
+        { "title": "Optimize the sales funnel", "priority": "High", "estimated_time": "8h", "tone": "Professional" }
     ],
     "Event": [
         { "title": "Finalize event date, time, and send out official invitations", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
@@ -33,7 +43,12 @@
         { "title": "Coordinate with vendors (e.g., photographers, AV equipment)", "priority": "Medium", "estimated_time": "3h", "tone": "Professional" },
         { "title": "Plan and prepare decorations and signage", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
         { "title": "Prepare a post-event follow-up email or survey", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" },
-        { "title": "Create a contingency plan for potential issues (e.g., weather, technical problems)", "priority": "High", "estimated_time": "2h", "tone": "Professional" }
+        { "title": "Create a contingency plan for potential issues (e.g., weather, technical problems)", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Develop a social media plan for the event", "priority": "Medium", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Secure sponsorships for the event", "priority": "High", "estimated_time": "10h", "tone": "Professional" },
+        { "title": "Recruit and train volunteers", "priority": "Medium", "estimated_time": "5h", "tone": "Professional" },
+        { "title": "Create a welcome packet for attendees", "priority": "Low", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Conduct a final walkthrough of the venue", "priority": "High", "estimated_time": "1h", "tone": "Professional" }
     ],
     "Digital": [
         { "title": "Update your LinkedIn profile and resume", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
@@ -45,7 +60,12 @@
         { "title": "Create a professional online portfolio or personal website", "priority": "Medium", "estimated_time": "8h", "tone": "Professional" },
         { "title": "Audit and update your social media privacy settings", "priority": "High", "estimated_time": "45m", "tone": "Professional" },
         { "title": "Schedule social media content for the upcoming week", "priority": "Medium", "estimated_time": "1.5h", "tone": "Casual" },
-        { "title": "Complete an online course or certification", "priority": "Medium", "estimated_time": "15h", "tone": "Professional" }
+        { "title": "Complete an online course or certification", "priority": "Medium", "estimated_time": "15h", "tone": "Professional" },
+        { "title": "Set up two-factor authentication on all important accounts", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Organize your browser bookmarks", "priority": "Low", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Learn basic HTML/CSS", "priority": "Medium", "estimated_time": "12h", "tone": "Professional" },
+        { "title": "Create a system for managing digital photos", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Install and configure a password manager", "priority": "High", "estimated_time": "1h", "tone": "Professional" }
     ],
     "Travel": [
         { "title": "Book flights, accommodation, and rental car", "priority": "High", "estimated_time": "3h", "tone": "Professional" },
@@ -57,7 +77,12 @@
         { "title": "Make copies of important documents (passport, visa, etc.)", "priority": "High", "estimated_time": "20m", "tone": "Professional" },
         { "title": "Download offline maps and travel apps", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
         { "title": "Arrange for pet or house sitters if needed", "priority": "High", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Confirm all reservations a week before departure", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" }
+        { "title": "Confirm all reservations a week before departure", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Learn basic phrases in the local language", "priority": "Low", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Buy a travel adapter", "priority": "High", "estimated_time": "15m", "tone": "Casual" },
+        { "title": "Set up an out-of-office email reply", "priority": "High", "estimated_time": "5m", "tone": "Professional" },
+        { "title": "Inform family or friends of your itinerary", "priority": "High", "estimated_time": "15m", "tone": "Casual" },
+        { "title": "Check visa requirements and apply if necessary", "priority": "High", "estimated_time": "2h", "tone": "Professional" }
     ],
     "Lifestyle": [
         { "title": "Declutter and organize one room in your home", "priority": "High", "estimated_time": "4h", "tone": "Casual" },
@@ -69,7 +94,12 @@
         { "title": "Start a new hobby or creative project", "priority": "Low", "estimated_time": "3h", "tone": "Casual" },
         { "title": "Schedule appointments for health check-ups (doctor, dentist)", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
         { "title": "Create a relaxing evening routine", "priority": "Medium", "estimated_time": "45m", "tone": "Casual" },
-        { "title": "Volunteer for a cause you care about", "priority": "Low", "estimated_time": "4h", "tone": "Casual" }
+        { "title": "Volunteer for a cause you care about", "priority": "Low", "estimated_time": "4h", "tone": "Casual" },
+        { "title": "Create a monthly budget and track your spending", "priority": "High", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Read for 30 minutes before bed", "priority": "Low", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Plan a weekend getaway", "priority": "Medium", "estimated_time": "3h", "tone": "Casual" },
+        { "title": "Do a digital detox for 24 hours", "priority": "Medium", "estimated_time": "24h", "tone": "Casual" },
+        { "title": "Learn to make your favorite coffee or tea at home", "priority": "Low", "estimated_time": "1h", "tone": "Casual" }
     ],
     "Health & Wellness": [
         { "title": "Schedule an annual physical check-up", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
@@ -81,7 +111,12 @@
         { "title": "Limit processed foods and sugar intake", "priority": "High", "estimated_time": "ongoing", "tone": "Casual" },
         { "title": "Take a mental health day to rest and recharge", "priority": "Medium", "estimated_time": "8h", "tone": "Casual" },
         { "title": "Join a local sports team or fitness class", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
-        { "title": "Learn to cook five new healthy meals", "priority": "Medium", "estimated_time": "5h", "tone": "Casual" }
+        { "title": "Learn to cook five new healthy meals", "priority": "Medium", "estimated_time": "5h", "tone": "Casual" },
+        { "title": "Schedule a dental cleaning and check-up", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Try a new form of exercise (e.g., pilates, HIIT)", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Get a massage", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Start a gratitude journal", "priority": "Medium", "estimated_time": "10m", "tone": "Casual" },
+        { "title": "Take a vitamin D supplement (consult with a doctor first)", "priority": "Medium", "estimated_time": "5m", "tone": "Professional" }
     ],
     "Creative": [
         { "title": "Start a daily sketching or drawing habit", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
@@ -93,7 +128,12 @@
         { "title": "Start a blog or YouTube channel about a topic you're passionate about", "priority": "Medium", "estimated_time": "20h", "tone": "Professional" },
         { "title": "Visit an art gallery or museum for inspiration", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
         { "title": "Collaborate with another creative on a project", "priority": "Medium", "estimated_time": "5h", "tone": "Professional" },
-        { "title": "Redecorate a room in your home", "priority": "High", "estimated_time": "10h", "tone": "Casual" }
+        { "title": "Redecorate a room in your home", "priority": "High", "estimated_time": "10h", "tone": "Casual" },
+        { "title": "Learn calligraphy or hand-lettering", "priority": "Low", "estimated_time": "5h", "tone": "Casual" },
+        { "title": "Create a short film or animation", "priority": "Medium", "estimated_time": "25h", "tone": "Professional" },
+        { "title": "Write a song", "priority": "Low", "estimated_time": "4h", "tone": "Casual" },
+        { "title": "Take a pottery or ceramics class", "priority": "Low", "estimated_time": "6h", "tone": "Casual" },
+        { "title": "Start a scrapbook or photo album", "priority": "Low", "estimated_time": "3h", "tone": "Casual" }
     ],
     "Home & Auto": [
         { "title": "Create a seasonal home maintenance checklist", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
@@ -105,7 +145,12 @@
         { "title": "Wash and detail your car", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
         { "title": "Plan a home improvement project (e.g., painting, new furniture)", "priority": "Medium", "estimated_time": "20h", "tone": "Casual" },
         { "title": "Set up a system for regular bill payments and mail organization", "priority": "High", "estimated_time": "1h", "tone": "Professional" },
-        { "title": "Research and switch to more energy-efficient appliances", "priority": "Low", "estimated_time": "3h", "tone": "Professional" }
+        { "title": "Research and switch to more energy-efficient appliances", "priority": "Low", "estimated_time": "3h", "tone": "Professional" },
+        { "title": "Clean out your car's interior", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Test smoke detectors and carbon monoxide detectors", "priority": "High", "estimated_time": "15m", "tone": "Professional" },
+        { "title": "Clean gutters and downspouts", "priority": "Medium", "estimated_time": "2h", "tone": "Professional" },
+        { "title": "Create a home inventory for insurance purposes", "priority": "Medium", "estimated_time": "4h", "tone": "Professional" },
+        { "title": "Organize your kitchen cabinets and pantry", "priority": "Medium", "estimated_time": "3h", "tone": "Casual" }
     ],
     "Education": [
         { "title": "Enroll in a new course or degree program", "priority": "High", "estimated_time": "5h", "tone": "Professional" },
@@ -117,7 +162,12 @@
         { "title": "Prepare and practice for an upcoming exam", "priority": "High", "estimated_time": "10h", "tone": "Professional" },
         { "title": "Apply for scholarships or financial aid", "priority": "High", "estimated_time": "5h", "tone": "Professional" },
         { "title": "Visit the library and check out books on a new subject", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Set up a dedicated and organized study space", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" }
+        { "title": "Set up a dedicated and organized study space", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Watch a documentary on a subject you know little about", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Learn a new language using a mobile app", "priority": "Medium", "estimated_time": "15h", "tone": "Casual" },
+        { "title": "Take notes on every book you read", "priority": "Medium", "estimated_time": "1h", "tone": "Professional" },
+        { "title": "Teach someone else a skill you know well", "priority": "Low", "estimated_time": "2h", "tone": "Casual" },
+        { "title": "Listen to an educational podcast daily", "priority": "Low", "estimated_time": "30m", "tone": "Casual" }
     ],
     "Daily Schedule": [
         { "title": "Wake up at 6:00 AM", "priority": "High", "estimated_time": "5m", "tone": "Casual" },
@@ -133,6 +183,11 @@
         { "title": "Plan for tomorrow", "priority": "High", "estimated_time": "20m", "tone": "Professional" },
         { "title": "Dinner", "priority": "Medium", "estimated_time": "45m", "tone": "Casual" },
         { "title": "Relax and unwind (read, watch a show)", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
-        { "title": "Bedtime at 10:00 PM", "priority": "High", "estimated_time": "5m", "tone": "Casual" }
+        { "title": "Bedtime at 10:00 PM", "priority": "High", "estimated_time": "5m", "tone": "Casual" },
+        { "title": "Tidy up your workspace at the end of the day", "priority": "Low", "estimated_time": "10m", "tone": "Casual" },
+        { "title": "Set out your clothes for the next day", "priority": "Low", "estimated_time": "5m", "tone": "Casual" },
+        { "title": "Charge all your devices", "priority": "High", "estimated_time": "2m", "tone": "Casual" },
+        { "title": "Pack your bag for the next day", "priority": "Medium", "estimated_time": "10m", "tone": "Casual" },
+        { "title": "Floss and brush your teeth", "priority": "High", "estimated_time": "5m", "tone": "Casual" }
     ]
 }

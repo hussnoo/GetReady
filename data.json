@@ -118,5 +118,21 @@
         { "title": "Apply for scholarships or financial aid", "priority": "High", "estimated_time": "5h", "tone": "Professional" },
         { "title": "Visit the library and check out books on a new subject", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
         { "title": "Set up a dedicated and organized study space", "priority": "Medium", "estimated_time": "2h", "tone": "Casual" }
+    ],
+    "Daily Schedule": [
+        { "title": "Wake up at 6:00 AM", "priority": "High", "estimated_time": "5m", "tone": "Casual" },
+        { "title": "Morning exercise", "priority": "Medium", "estimated_time": "30m", "tone": "Casual" },
+        { "title": "Breakfast and coffee", "priority": "Medium", "estimated_time": "20m", "tone": "Casual" },
+        { "title": "Review daily to-do list", "priority": "High", "estimated_time": "15m", "tone": "Professional" },
+        { "title": "Deep work session 1", "priority": "High", "estimated_time": "1.5h", "tone": "Professional" },
+        { "title": "Short break", "priority": "Low", "estimated_time": "10m", "tone": "Casual" },
+        { "title": "Deep work session 2", "priority": "High", "estimated_time": "1.5h", "tone": "Professional" },
+        { "title": "Lunch break", "priority": "Medium", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Afternoon walk", "priority": "Low", "estimated_time": "20m", "tone": "Casual" },
+        { "title": "Reply to emails and messages", "priority": "Medium", "estimated_time": "45m", "tone": "Professional" },
+        { "title": "Plan for tomorrow", "priority": "High", "estimated_time": "20m", "tone": "Professional" },
+        { "title": "Dinner", "priority": "Medium", "estimated_time": "45m", "tone": "Casual" },
+        { "title": "Relax and unwind (read, watch a show)", "priority": "Low", "estimated_time": "1h", "tone": "Casual" },
+        { "title": "Bedtime at 10:00 PM", "priority": "High", "estimated_time": "5m", "tone": "Casual" }
     ]
 }

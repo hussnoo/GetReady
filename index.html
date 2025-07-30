@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -16,6 +17,28 @@
 
     <main id="app-container">
         <section id="home-page" class="page active">
+            <div id="dashboard">
+                <div id="quote-of-the-day">
+                    <h2>Quote of the Day</h2>
+                    <p id="quote-text"></p>
+                    <p id="quote-author"></p>
+                </div>
+                <div id="progress-overview">
+                    <h2>Progress Overview</h2>
+                    <canvas id="progress-chart"></canvas>
+                </div>
+                <div id="upcoming-tasks">
+                    <h2>Upcoming Tasks</h2>
+                    <ul id="upcoming-tasks-list">
+                        <!-- JS will populate this -->
+                    </ul>
+                </div>
+                <div id="quick-tools">
+                    <h2>Quick Tools</h2>
+                    <a href="resume.html" class="btn-tool-quick">Resume Builder</a>
+                    <a href="budget-planner.html" class="btn-tool-quick">Budget Planner</a>
+                </div>
+            </div>
             <h2>Preparation Categories</h2>
             <div class="category-grid">
                 <div class="category-card" data-category="Personal">

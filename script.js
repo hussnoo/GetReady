@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const quoteText = document.getElementById('quote-text');
+    const quoteAuthor = document.getElementById('quote-author');
+    const upcomingTasksList = document.getElementById('upcoming-tasks-list');
+    const progressChartCanvas = document.getElementById('progress-chart');
+
     const pages = document.querySelectorAll('.page');
     const navButtons = document.querySelectorAll('.nav-btn');
     const categoryCards = document.querySelectorAll('.category-card');
@@ -19,7 +24,78 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             checklists = data;
+            displayDashboardData();
         });
+
+    function displayDashboardData() {
+        fetchRandomQuote();
+        displayUpcomingTasks();
+        renderProgressChart();
+    }
+
+    function fetchRandomQuote() {
+        fetch('https://api.quotable.io/random')
+            .then(response => response.json())
+            .then(data => {
+                quoteText.textContent = `"${data.content}"`;
+                quoteAuthor.textContent = `— ${data.author}`;
+            })
+            .catch(() => {
+                quoteText.textContent = '"The secret of getting ahead is getting started."';
+                quoteAuthor.textContent = '— Mark Twain';
+            });
+    }
+
+    function displayUpcomingTasks() {
+        upcomingTasksList.innerHTML = '';
+        let count = 0;
+        for (const category in checklists) {
+            if (count >= 5) break;
+            const tasks = checklists[category];
+            const savedState = JSON.parse(localStorage.getItem(`checklist_${category}`)) || {};
+            for (let i = 0; i < tasks.length; i++) {
+                if (count >= 5) break;
+                if (!savedState[i]) {
+                    const li = document.createElement('li');
+                    li.textContent = `${tasks[i].title} (${category})`;
+                    upcomingTasksList.appendChild(li);
+                    count++;
+                }
+            }
+        }
+    }
+
+    function renderProgressChart() {
+        const labels = Object.keys(checklists);
+        const data = labels.map(category => {
+            const tasks = checklists[category];
+            const savedState = JSON.parse(localStorage.getItem(`checklist_${category}`)) || {};
+            const completedCount = Object.values(savedState).filter(Boolean).length;
+            return (completedCount / tasks.length) * 100 || 0;
+        });
+
+        new Chart(progressChartCanvas, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: '% Progress',
+                    data: data,
+                    backgroundColor: 'rgba(133, 153, 0, 0.5)',
+                    borderColor: 'rgba(133, 153, 0, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                }
+            }
+        });
+    }
 
     function showPage(pageId) {
         pages.forEach(page => {

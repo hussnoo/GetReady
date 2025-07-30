@@ -38,6 +38,57 @@ main {
     display: block;
 }
 
+#dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#quote-of-the-day, #progress-overview, #upcoming-tasks, #quick-tools {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+#quote-of-the-day {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+#quote-of-the-day p:first-of-type {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+#quote-author {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#upcoming-tasks-list {
+    list-style: none;
+    padding: 0;
+}
+
+#upcoming-tasks-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.btn-tool-quick {
+    display: block;
+    background-color: var(--soft-green);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
 .category-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
